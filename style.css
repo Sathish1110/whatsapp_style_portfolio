@@ -412,3 +412,23 @@ footer{
         height: auto;
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .dpimg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .sendBar input[type='text'] {
+    font-size: 14px;
+  }
+
+  .personalInfo #name {
+    font-size: 16px;
+  }
+
+  .personalInfo #lastseen {
+    font-size: 12px;
+  }
+}
