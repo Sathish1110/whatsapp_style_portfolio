@@ -188,6 +188,11 @@ nav{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 0 0 10px 10px;
 }
 .downloadSpace .pdfname{
     display: flex;
