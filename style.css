@@ -205,7 +205,7 @@ nav{
 .downloadSpace {
   background-color: #1d282f;
   display: flex;
-  flex-wrap: wrap; /* ✅ Allow wrapping on small screens */
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 8px;
@@ -216,8 +216,8 @@ nav{
 .pdfname {
   display: flex;
   align-items: center;
-  gap: 10px;
-  max-width: 75%; /* ✅ Prevent label from overflowing */
+/*   gap: 10px; */
+  max-width: 75%;
   flex: 1;
 }
 
