@@ -215,10 +215,11 @@ nav{
 
 .pdfname {
   display: flex;
+  width: 100%;
   align-items: center;
-/*   gap: 10px; */
+  gap: 10px;
   max-width: 75%;
-  flex: 1;
+/*   flex: 1; */
 }
 
 .pdfname img {
