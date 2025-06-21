@@ -1,4 +1,4 @@
-# 💬 Sathish Waran - Chat-style Portfolio Website
+# 💬 Sathish Waran S- WhatsApp-style Portfolio Website
 
 A fully interactive, chat-based personal portfolio where visitors can message keywords like `help`, `skills`, `resume`, or `projects` to learn more about me in a conversational format — inspired by modern chat UIs.
 
