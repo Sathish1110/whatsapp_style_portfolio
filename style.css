@@ -205,21 +205,18 @@ nav{
 .downloadSpace {
   background-color: #1d282f;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-start;
-  padding: 8px;
-  gap: 8px;
+  justify-content: space-between;
+  padding: 8px 12px;
   border-radius: 0 0 10px 10px;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .pdfname {
   display: flex;
-  width: 100%;
   align-items: center;
-  gap: 10px;
-  max-width: 75%;
-  flex: 1;
+  gap: 8px;
 }
 
 .pdfname img {
@@ -228,18 +225,19 @@ nav{
 }
 
 .pdfname label {
+  font-size: 0.9rem;
   color: #fff;
-/*   font-size: 0.85rem; */
-  margin: auto 0px;
   word-break: break-word;
+  max-width: 100%;
 }
 
 .downloadSpace .download {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   cursor: pointer;
-  margin-left: auto;
+  flex-shrink: 0;
 }
+
 
 
 /* this css is used for embedded html in messages */
