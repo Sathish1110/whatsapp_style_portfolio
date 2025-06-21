@@ -255,7 +255,7 @@ nav{
     display: none;
 }
 
-scrollable .fullScreenDP{
+.scrollable .fullScreenDP{
     transition: all 700ms ease-in-out;
     position: absolute;;
     width: 100%;
