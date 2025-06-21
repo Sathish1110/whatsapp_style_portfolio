@@ -207,7 +207,7 @@ nav{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 8px;
   gap: 8px;
   border-radius: 0 0 10px 10px;
