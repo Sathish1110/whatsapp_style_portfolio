@@ -228,7 +228,7 @@ nav{
 
 .pdfname label {
   color: #fff;
-  font-size: 0.85rem;
+/*   font-size: 0.85rem; */
   word-break: break-word; /* ✅ Break long filenames */
 }
 
