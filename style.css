@@ -219,7 +219,7 @@ nav{
   align-items: center;
   gap: 10px;
   max-width: 75%;
-/*   flex: 1; */
+  flex: 1;
 }
 
 .pdfname img {
@@ -230,7 +230,8 @@ nav{
 .pdfname label {
   color: #fff;
 /*   font-size: 0.85rem; */
-  word-break: break-word; /* ✅ Break long filenames */
+  margin: auto 0px;
+  word-break: break-word;
 }
 
 .downloadSpace .download {
