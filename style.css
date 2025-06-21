@@ -183,16 +183,10 @@ nav{
     border-radius: 10px 10px 0px 0px;
 }
 
-.downloadSpace{
+/* .downloadSpace{
     background-color: #1d282f;
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px;
-    gap: 8px;
-    border-radius: 0 0 10px 10px;
 }
 .downloadSpace .pdfname{
     display: flex;
@@ -206,7 +200,44 @@ nav{
     width: 35px;
     cursor: pointer;
     margin: 5px;
+} */
+
+.downloadSpace {
+  background-color: #1d282f;
+  display: flex;
+  flex-wrap: wrap; /* ✅ Allow wrapping on small screens */
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  gap: 8px;
+  border-radius: 0 0 10px 10px;
 }
+
+.pdfname {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 75%; /* ✅ Prevent label from overflowing */
+  flex: 1;
+}
+
+.pdfname img {
+  width: 20px;
+  height: 20px;
+}
+
+.pdfname label {
+  color: #fff;
+  font-size: 0.85rem;
+  word-break: break-word; /* ✅ Break long filenames */
+}
+
+.downloadSpace .download {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
 
 /* this css is used for embedded html in messages */
 .bold{
