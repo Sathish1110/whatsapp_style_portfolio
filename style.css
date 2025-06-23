@@ -6,7 +6,7 @@
 
 body{
     padding-top: 1vh;
-    background-color: #220202;
+    background-color: #0a0000;
     background-size: unset;
     background-repeat: repeat;
     height: 98vh;
@@ -183,7 +183,7 @@ nav{
     border-radius: 10px 10px 0px 0px;
 }
 
-.downloadSpace{
+/* .downloadSpace{
     background-color: #1d282f;
     display: flex;
     width: 100%;
@@ -191,6 +191,7 @@ nav{
 .downloadSpace .pdfname{
     display: flex;
     width: 100%;
+    max-width: 75%;
 }
 .pdfname label{
     margin: auto 0px;
@@ -199,7 +200,45 @@ nav{
     width: 35px;
     cursor: pointer;
     margin: 5px;
+} */
+
+.downloadSpace {
+  background-color: #1d282f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-radius: 0 0 10px 10px;
+  gap: 10px;
+  flex-wrap: wrap;
 }
+
+.pdfname {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pdfname img {
+  width: 20px;
+  height: 20px;
+}
+
+.pdfname label {
+  font-size: 0.9rem;
+  color: #fff;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+.downloadSpace .download {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+
 
 /* this css is used for embedded html in messages */
 .bold{
@@ -255,7 +294,7 @@ nav{
     display: none;
 }
 
-scrollable .fullScreenDP{
+.scrollable .fullScreenDP{
     transition: all 700ms ease-in-out;
     position: absolute;;
     width: 100%;
@@ -411,4 +450,24 @@ footer{
         display: block;
         height: auto;
     }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .dpimg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .sendBar input[type='text'] {
+    font-size: 14px;
+  }
+
+  .personalInfo #name {
+    font-size: 16px;
+  }
+
+  .personalInfo #lastseen {
+    font-size: 12px;
+  }
 }
