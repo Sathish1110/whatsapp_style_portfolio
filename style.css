@@ -61,12 +61,14 @@ nav{
     display: flex;
     height: 88%;
     flex-direction: column;
-    background-image: url('images/bg.webp');
+    background-image: url('https://wallpapercave.com/wp/wp14680902.webp');
     align-items: flex-end;
     position: relative;
     -ms-overflow-style: none; 
     scrollbar-width: none; 
     position: relative;
+    background-size: cover;
+    background-position: center;
 }
 
 .scrollable .chatting{
