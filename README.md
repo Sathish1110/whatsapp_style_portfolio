@@ -36,25 +36,22 @@ A fully interactive, chat-based personal portfolio where visitors can message ke
 ├── /assets
 │ └── Sathish_Resume.pdf # Downloadable resume
 
-
-
-
 ---
 
 ## 💬 Supported Keywords
 
-| Keyword     | Description                         |
-|-------------|-------------------------------------|
-| `help`      | Shows available commands            |
-| `intro`     | Basic self introduction             |
-| `skills`    | Technologies and languages known    |
-| `resume`    | View and download resume            |
-| `education` | Educational background              |
-| `projects`  | GitHub project link                 |
-| `contact`   | Phone, Email, Social Profiles       |
+| Keyword     | Description                           |
+| ----------- | ------------------------------------- |
+| `help`      | Shows available commands              |
+| `intro`     | Basic self introduction               |
+| `skills`    | Technologies and languages known      |
+| `resume`    | View and download resume              |
+| `education` | Educational background                |
+| `projects`  | GitHub project link                   |
+| `contact`   | Phone, Email, Social Profiles         |
 | `address`   | Shows location in embedded Google Map |
-| `about`     | Info about the site & developer     |
-| `clear`     | Clears the chat                     |
+| `about`     | Info about the site & developer       |
+| `clear`     | Clears the chat                       |
 
 ---
 
@@ -69,6 +66,6 @@ A fully interactive, chat-based personal portfolio where visitors can message ke
 ## 🛠️ Tech Stack
 
 - **HTML5** / **CSS3**
-- **Vanilla JavaScript**
+- **JavaScript**
 - 🎨 Custom SVG icons and layout
 - ✅ Responsive Design
